@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  #root {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+
+    .app {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      overflow: hidden;
+      overflow-y: auto;
+
+      > div {
+        max-width: 1630px;
+        margin: auto;
+
+        @media only screen and (max-width: 1630px) {
+          padding: 0 2em;
+        }
+      }
+    }
+  }
+}
+
+@import url('./logo.scss');
+@import url('./navbar.scss');
