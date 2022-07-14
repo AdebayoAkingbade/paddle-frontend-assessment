@@ -1,0 +1,25 @@
+.card {
+  width: 120px;
+  height: 134px;
+  background: #ffffff;
+  border-radius: 9px;
+
+  .number {
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 70px;
+    color: #000000;
+  }
+
+  p {
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-align: center;
+  }
+}

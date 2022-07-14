@@ -1,0 +1,5 @@
+export { ReactComponent as FBLogo } from './fb.svg'
+export { ReactComponent as TWLogo } from './tw.svg'
+export { ReactComponent as INLogo } from './in.svg'
+export { ReactComponent as LNLogo } from './ln.svg'
+export { ReactComponent as YTLogo } from './yt.svg'

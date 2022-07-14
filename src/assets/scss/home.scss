@@ -1,0 +1,117 @@
+.home {
+  position: relative;
+  .ball {
+    position: absolute;
+    border-radius: 50%;
+    width: 140px;
+    height: 143px;
+
+    &.left {
+      top: 32px;
+      left: 114px;
+      background: transparent linear-gradient(177deg, #7f1e7b 0%, #19073b 100%)
+        0% 0% no-repeat padding-box;
+    }
+
+    &.bottom {
+      width: 183px;
+      height: 187px;
+      background: transparent linear-gradient(177deg, #7f4129 0%, #1c0c28 100%)
+        0% 0% no-repeat padding-box;
+      top: 734px;
+      left: 328px;
+    }
+
+    &.right {
+      width: 104px;
+      height: 107px;
+      right: 231px;
+      top: 231px;
+      background: transparent linear-gradient(177deg, #213f72 0%, #19073b 100%)
+        0% 0% no-repeat padding-box;
+    }
+  }
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 122px 0 0;
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 52px;
+      letter-spacing: 1px;
+    }
+    p {
+      &.info {
+        max-width: 760px;
+        margin: 22px auto 36px auto;
+        padding: 0 15px;
+        text-align: center;
+        letter-spacing: 1.9px;
+        line-height: 32px;
+      }
+    }
+    .card-wrapper,
+    & .input-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .input-wrapper {
+      margin-top: 51px;
+      gap: 3px;
+    }
+
+    .subscribe {
+        margin-top: 40px;
+    }
+  }
+
+  footer {
+    margin: auto;
+    margin-top: 132px;
+    height: 298px;
+    overflow: hidden;
+    .glass-bg {
+      background: rgba(#fff, 0.1);
+      border: 1px solid #707070;
+      box-shadow: 0px 0px 10px #09090991;
+      backdrop-filter: blur(0);
+      -webkit-backdrop-filter: blur(0);
+      height: calc(298px * 3);
+      border-radius: 50%;
+      padding-top: 120px;
+
+      .content {
+        max-width: 584px;
+        margin: auto;
+        text-align: center;
+        .icons-terms {
+          max-width: 350px;
+          margin: auto;
+          margin-bottom: 30px;
+          .icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 47.21px;
+            margin-bottom: 22px;
+            svg {
+              color: #ffffff;
+              opacity: 0.54;
+              width: 28px;
+              height: 28px;
+            }
+          }
+          .terms {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+        }
+      }
+    }
+  }
+}
