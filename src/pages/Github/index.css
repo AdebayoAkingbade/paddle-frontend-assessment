@@ -1,14 +1,3 @@
-/* .repos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-i{
-    color: gray;
-} */
-
 .text{
     text-align: justify;
 }
@@ -41,41 +30,3 @@ i{
     position: relative;
     margin-right: 30px;
 }
-
-/* .repo_title{
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    line-height: 1.5rem;
-    max-height: 1.5rem;
-    justify-content: space-evenly;
-}
-
-.repo_title > span{
-    color: #0366d6;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.desc{
-    color: rgb(90,90,90);
-    overflow: hidden;
-    margin-left: -13px;
-    font-size: 14px;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-height: 1.5rem;
-    max-height: 3rem;
-}
-
-.subtitle{
-    font-size: 12px;
-    margin-top: 10px;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-} */
