@@ -7,6 +7,7 @@ const Navbar = () => {
     <div className="navbar">
         <Logo />
         <div className="links">
+            <NavLink to="/github">Github</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/blog">Blog</NavLink>
             <NavLink to="/">Contact</NavLink>
